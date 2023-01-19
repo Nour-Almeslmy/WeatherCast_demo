@@ -1,0 +1,12 @@
+F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\bin\Debug\net6.0\WeatherCast.Common.Entities.deps.json
+F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\bin\Debug\net6.0\WeatherCast.Common.Entities.dll
+F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\bin\Debug\net6.0\WeatherCast.Common.Entities.pdb
+F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.csproj.AssemblyReference.cache
+F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.GeneratedMSBuildEditorConfig.editorconfig
+F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.AssemblyInfoInputs.cache
+F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.AssemblyInfo.cs
+F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.csproj.CoreCompileInputs.cache
+F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.dll
+F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\refint\WeatherCast.Common.Entities.dll
+F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.pdb
+F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\ref\WeatherCast.Common.Entities.dll
