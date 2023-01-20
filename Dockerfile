@@ -10,9 +10,10 @@ ENV ASPNETCORE_URLS=http://*:5000
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["WeatherCast/WeatherCast/WeatherCast.csproj", "WeatherCast/WeatherCast/"]
-COPY ["WeatherCastCommon/WeatherCast.Common.Entities/WeatherCast.Common.Entities.csproj", "WeatherCastCommon/WeatherCast.Common.Entities/"]
-RUN dotnet restore "WeatherCast/WeatherCast/WeatherCast.csproj"
+COPY ["WeatherCast/WeatherCast/WeatherCast.csproj", "x/WeatherCast/WeatherCast/"]
+COPY ["WeatherCastCommon/WeatherCast.Common.Entities/WeatherCast.Common.Entities.csproj", "x/WeatherCastCommon/WeatherCast.Common.Entities/"]
+COPY ["OpenShiftUtils/AreasUtils/AreasUtils.csproj", "OpenShiftUtils/AreasUtils/"]
+RUN dotnet restore "x/WeatherCast/WeatherCast/WeatherCast.csproj"
 COPY . .
 WORKDIR "/src/WeatherCast"
 RUN dotnet build "WeatherCast/WeatherCast.csproj" -c Release -o /app/build
