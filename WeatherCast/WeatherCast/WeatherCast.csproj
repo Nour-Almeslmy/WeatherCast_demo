@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\OpenShiftUtils\AreasUtils\AreasUtils.csproj" />
     <ProjectReference Include="..\..\WeatherCastCommon\WeatherCast.Common.Entities\WeatherCast.Common.Entities.csproj" />
   </ItemGroup>
 

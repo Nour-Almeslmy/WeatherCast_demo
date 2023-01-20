@@ -89,6 +89,16 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "AreasUtils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AreasUtils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AreasUtils.dll": {}
+        }
+      },
       "WeatherCast.Common.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -227,6 +237,11 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "AreasUtils/1.0.0": {
+      "type": "project",
+      "path": "../../../OpenShiftUtils/AreasUtils/AreasUtils.csproj",
+      "msbuildProject": "../../../OpenShiftUtils/AreasUtils/AreasUtils.csproj"
+    },
     "WeatherCast.Common.Entities/1.0.0": {
       "type": "project",
       "path": "../../WeatherCastCommon/WeatherCast.Common.Entities/WeatherCast.Common.Entities.csproj",
@@ -235,6 +250,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AreasUtils >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "WeatherCast.Common.Entities >= 1.0.0"
     ]
@@ -266,6 +282,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "F:\\WEB DEVELOP\\VS\\OpenShiftUtils\\AreasUtils\\AreasUtils.csproj": {
+              "projectPath": "F:\\WEB DEVELOP\\VS\\OpenShiftUtils\\AreasUtils\\AreasUtils.csproj"
+            },
             "F:\\WEB DEVELOP\\VS\\OpenShift\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj": {
               "projectPath": "F:\\WEB DEVELOP\\VS\\OpenShift\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj"
             }

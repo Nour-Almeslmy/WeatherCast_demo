@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherCast", "WeatherCast\WeatherCast.csproj", "{DF8B451D-E4FB-44E7-BE7A-15312A96A213}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherCast", "WeatherCast\WeatherCast.csproj", "{DF8B451D-E4FB-44E7-BE7A-15312A96A213}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{7F59DCA0-4661-4CCD-B166-D0CA80145F98}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherCast.Common.Entities", "..\WeatherCastCommon\WeatherCast.Common.Entities\WeatherCast.Common.Entities.csproj", "{946F290C-A650-4810-A312-71274EE98EB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{7FC0704A-6167-400E-980C-0437C008A0BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreasUtils", "..\..\OpenShiftUtils\AreasUtils\AreasUtils.csproj", "{97475E37-A99B-475B-9A39-8F976CC88EB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +27,17 @@ Global
 		{946F290C-A650-4810-A312-71274EE98EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{946F290C-A650-4810-A312-71274EE98EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{946F290C-A650-4810-A312-71274EE98EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97475E37-A99B-475B-9A39-8F976CC88EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97475E37-A99B-475B-9A39-8F976CC88EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97475E37-A99B-475B-9A39-8F976CC88EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97475E37-A99B-475B-9A39-8F976CC88EB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{946F290C-A650-4810-A312-71274EE98EB7} = {7F59DCA0-4661-4CCD-B166-D0CA80145F98}
+		{97475E37-A99B-475B-9A39-8F976CC88EB8} = {7FC0704A-6167-400E-980C-0437C008A0BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {967381B0-3F40-4E8A-AF7E-96109D40B9C0}

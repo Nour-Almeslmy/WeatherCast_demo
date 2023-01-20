@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AreasUtils;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WeatherCast.Common.Entities;
 
@@ -15,6 +16,13 @@ namespace WeatherCast.Controllers
             var areas = GetAreas();
 
             return areas;
+        }
+
+        public string GetAreaperimeter()
+        {
+            var area = new AerasDims(3, 5);
+
+            return area.perimeter.ToString();
         }
 
         private List<Area> GetAreas()
