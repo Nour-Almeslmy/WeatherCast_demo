@@ -32,3 +32,5 @@ F:\WEB DEVELOP\VS\OpenShift\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast
 F:\WEB DEVELOP\VS\OpenShift\WeatherCast\WeatherCast\obj\Debug\net6.0\ref\WeatherCast.dll
 F:\WEB DEVELOP\VS\OpenShift\WeatherCast\WeatherCast\bin\Debug\net6.0\WeatherCast.Common.Entities.dll
 F:\WEB DEVELOP\VS\OpenShift\WeatherCast\WeatherCast\bin\Debug\net6.0\WeatherCast.Common.Entities.pdb
+F:\WEB DEVELOP\VS\OpenShift\WeatherCast\WeatherCast\bin\Debug\net6.0\AreasUtils.dll
+F:\WEB DEVELOP\VS\OpenShift\WeatherCast\WeatherCast\bin\Debug\net6.0\AreasUtils.pdb
