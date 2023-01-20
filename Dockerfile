@@ -12,7 +12,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["WeatherCast/WeatherCast/WeatherCast.csproj", "x/WeatherCast/WeatherCast/"]
 COPY ["WeatherCastCommon/WeatherCast.Common.Entities/WeatherCast.Common.Entities.csproj", "x/WeatherCastCommon/WeatherCast.Common.Entities/"]
-COPY ["OpenShiftUtils/AreasUtils/AreasUtils.csproj", "OpenShiftUtils/AreasUtils/"]
+COPY ["OpenShiftUtils/AreasUtils/AreasUtils.csproj", "OpenShiftUtils/OpenShiftUtils/AreasUtils/"]
 RUN dotnet restore "x/WeatherCast/WeatherCast/WeatherCast.csproj"
 COPY . .
 WORKDIR "/src/WeatherCast"
