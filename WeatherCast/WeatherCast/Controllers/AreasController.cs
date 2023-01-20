@@ -18,6 +18,8 @@ namespace WeatherCast.Controllers
             return areas;
         }
 
+        [HttpGet]
+        [Route("per")]
         public string GetAreaperimeter()
         {
             var area = new AerasDims(3, 5);
