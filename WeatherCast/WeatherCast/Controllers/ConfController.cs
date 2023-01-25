@@ -43,5 +43,12 @@ namespace WeatherCast.Controllers
             }
             return value;
         }
+
+        [HttpGet]
+        [Route("csOrange")]
+        public string GetConectionString() 
+        {
+            return _configuration.GetValue<string>("orangeDB");
+        }
     }
 }
