@@ -45,10 +45,24 @@ namespace WeatherCast.Controllers
         }
 
         [HttpGet]
+        [Route("cs")]
+        public string GetConectionString()
+        {
+            return _configuration.GetConnectionString("default");
+        }
+
+        [HttpGet]
         [Route("csOrange")]
-        public string GetConectionString() 
+        public string GetConectionStringOrange() 
         {
             return _configuration.GetValue<string>("orangeDB");
+        }
+
+        [HttpGet]
+        [Route("csOrangeCash")]
+        public string GetConectionStringOC()
+        {
+            return _configuration.GetValue<string>("orange-cash-cs-fromSecret");
         }
     }
 }
