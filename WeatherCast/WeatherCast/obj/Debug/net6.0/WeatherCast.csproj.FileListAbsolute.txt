@@ -32,3 +32,37 @@ F:\WEB DEVELOP\VS\OpenShift\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast
 F:\WEB DEVELOP\VS\OpenShift\WeatherCast\WeatherCast\obj\Debug\net6.0\ref\WeatherCast.dll
 F:\WEB DEVELOP\VS\OpenShift\WeatherCast\WeatherCast\bin\Debug\net6.0\WeatherCast.Common.Entities.dll
 F:\WEB DEVELOP\VS\OpenShift\WeatherCast\WeatherCast\bin\Debug\net6.0\WeatherCast.Common.Entities.pdb
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\appsettings.Development.json
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\appsettings.json
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\WeatherCast.exe
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\WeatherCast.deps.json
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\WeatherCast.runtimeconfig.json
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\WeatherCast.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\WeatherCast.pdb
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\WeatherCast.Common.Entities.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\WeatherCast.Common.Entities.pdb
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast.csproj.AssemblyReference.cache
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast.GeneratedMSBuildEditorConfig.editorconfig
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast.AssemblyInfoInputs.cache
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast.AssemblyInfo.cs
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast.csproj.CoreCompileInputs.cache
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast.MvcApplicationPartsAssemblyInfo.cs
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast.MvcApplicationPartsAssemblyInfo.cache
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\staticwebassets\msbuild.WeatherCast.Microsoft.AspNetCore.StaticWebAssets.props
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\staticwebassets\msbuild.build.WeatherCast.props
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WeatherCast.props
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WeatherCast.props
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\staticwebassets.pack.json
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\staticwebassets.build.json
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\staticwebassets.development.json
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\scopedcss\bundle\WeatherCast.styles.css
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast.csproj.CopyComplete
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\refint\WeatherCast.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast.pdb
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast.genruntimeconfig.cache
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\ref\WeatherCast.dll

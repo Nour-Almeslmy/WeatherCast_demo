@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\WEB DEVELOP\\VS\\OpenShift\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj": {}
+    "D:\\testProjs\\Core\\WeatherCast_demo\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj": {}
   },
   "projects": {
-    "F:\\WEB DEVELOP\\VS\\OpenShift\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj": {
+    "D:\\testProjs\\Core\\WeatherCast_demo\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\WEB DEVELOP\\VS\\OpenShift\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj",
+        "projectUniqueName": "D:\\testProjs\\Core\\WeatherCast_demo\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj",
         "projectName": "WeatherCast.Common.Entities",
-        "projectPath": "F:\\WEB DEVELOP\\VS\\OpenShift\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj",
-        "packagesPath": "C:\\Users\\Nour Almeslmy\\.nuget\\packages\\",
-        "outputPath": "F:\\WEB DEVELOP\\VS\\OpenShift\\WeatherCastCommon\\WeatherCast.Common.Entities\\obj\\",
+        "projectPath": "D:\\testProjs\\Core\\WeatherCast_demo\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj",
+        "packagesPath": "C:\\Users\\NElMeslemy\\.nuget\\packages\\",
+        "outputPath": "D:\\testProjs\\Core\\WeatherCast_demo\\WeatherCastCommon\\WeatherCast.Common.Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Nour Almeslmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NElMeslemy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

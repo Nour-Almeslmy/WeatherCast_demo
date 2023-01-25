@@ -10,3 +10,15 @@ F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\obj\De
 F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\refint\WeatherCast.Common.Entities.dll
 F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.pdb
 F:\WEB DEVELOP\VS\OpenShift\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\ref\WeatherCast.Common.Entities.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCastCommon\WeatherCast.Common.Entities\bin\Debug\net6.0\WeatherCast.Common.Entities.deps.json
+D:\testProjs\Core\WeatherCast_demo\WeatherCastCommon\WeatherCast.Common.Entities\bin\Debug\net6.0\WeatherCast.Common.Entities.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCastCommon\WeatherCast.Common.Entities\bin\Debug\net6.0\WeatherCast.Common.Entities.pdb
+D:\testProjs\Core\WeatherCast_demo\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.csproj.AssemblyReference.cache
+D:\testProjs\Core\WeatherCast_demo\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\testProjs\Core\WeatherCast_demo\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.AssemblyInfoInputs.cache
+D:\testProjs\Core\WeatherCast_demo\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.AssemblyInfo.cs
+D:\testProjs\Core\WeatherCast_demo\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.csproj.CoreCompileInputs.cache
+D:\testProjs\Core\WeatherCast_demo\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\refint\WeatherCast.Common.Entities.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\WeatherCast.Common.Entities.pdb
+D:\testProjs\Core\WeatherCast_demo\WeatherCastCommon\WeatherCast.Common.Entities\obj\Debug\net6.0\ref\WeatherCast.Common.Entities.dll

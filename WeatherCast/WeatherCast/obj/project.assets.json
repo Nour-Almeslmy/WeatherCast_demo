@@ -240,19 +240,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nour Almeslmy\\.nuget\\packages\\": {}
+    "C:\\Users\\NElMeslemy\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\WEB DEVELOP\\VS\\OpenShift\\WeatherCast\\WeatherCast\\WeatherCast.csproj",
+      "projectUniqueName": "D:\\testProjs\\Core\\WeatherCast_demo\\WeatherCast\\WeatherCast\\WeatherCast.csproj",
       "projectName": "WeatherCast",
-      "projectPath": "F:\\WEB DEVELOP\\VS\\OpenShift\\WeatherCast\\WeatherCast\\WeatherCast.csproj",
-      "packagesPath": "C:\\Users\\Nour Almeslmy\\.nuget\\packages\\",
-      "outputPath": "F:\\WEB DEVELOP\\VS\\OpenShift\\WeatherCast\\WeatherCast\\obj\\",
+      "projectPath": "D:\\testProjs\\Core\\WeatherCast_demo\\WeatherCast\\WeatherCast\\WeatherCast.csproj",
+      "packagesPath": "C:\\Users\\NElMeslemy\\.nuget\\packages\\",
+      "outputPath": "D:\\testProjs\\Core\\WeatherCast_demo\\WeatherCast\\WeatherCast\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Nour Almeslmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\NElMeslemy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -266,8 +270,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\WEB DEVELOP\\VS\\OpenShift\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj": {
-              "projectPath": "F:\\WEB DEVELOP\\VS\\OpenShift\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj"
+            "D:\\testProjs\\Core\\WeatherCast_demo\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj": {
+              "projectPath": "D:\\testProjs\\Core\\WeatherCast_demo\\WeatherCastCommon\\WeatherCast.Common.Entities\\WeatherCast.Common.Entities.csproj"
             }
           }
         }
@@ -306,7 +310,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
