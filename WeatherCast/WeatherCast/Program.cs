@@ -1,3 +1,5 @@
+using WeatherCast.Controllers;
+
 namespace WeatherCast
 {
     public class Program
@@ -12,6 +14,10 @@ namespace WeatherCast
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            var logger = builder.Services.BuildServiceProvider().GetService<ILogger<ConfController>>();
+
+            builder.Services.AddSingleton(typeof(ILogger), logger);
 
             var app = builder.Build();
 

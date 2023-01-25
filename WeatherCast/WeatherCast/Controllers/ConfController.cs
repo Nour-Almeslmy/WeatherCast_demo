@@ -8,10 +8,12 @@ namespace WeatherCast.Controllers
     public class ConfController : ControllerBase
     {
         private readonly IConfiguration _configuration;
+        private readonly ILogger _logger;
 
-        public ConfController(IConfiguration configuration)
+        public ConfController(IConfiguration configuration, ILogger logger)
         {
             _configuration = configuration;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -64,5 +66,24 @@ namespace WeatherCast.Controllers
         {
             return _configuration.GetValue<string>("orange-cash-cs-fromSecret");
         }
+
+        [HttpGet]
+        [Route("log")]
+        public string Log() 
+        {
+            //try
+            //{
+            //    string? error = null;
+            //    error.ToUpper();
+            //}
+            //catch(Exception exp)
+            //{
+            //    _logger.LogDebug($"Expeption Thrown ===> {exp.Message}");
+            //}
+            _logger.LogError("Expeption Thrown");
+            _logger.LogInformation("Expeption Thrown");
+            return "Logging";
+        }
+
     }
 }
