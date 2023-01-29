@@ -71,7 +71,12 @@ namespace WeatherCast.Controllers
         [Route("new")]
         public string GetValueFromConfFile()
         {
-            return _configuration.GetValue<string>("confKey");
+            var value = _configuration.GetValue<string>("confKey");
+            if (String.IsNullOrEmpty(value))
+            {
+                return "Empty Value From conf file";
+            }
+            return value;
         }
 
         [HttpGet]

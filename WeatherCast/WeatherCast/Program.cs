@@ -17,6 +17,7 @@ namespace WeatherCast
 
             builder.Host.ConfigureAppConfiguration((ctx, builder) =>
             {
+                builder.AddJsonFile("appsettings.json");
                 builder.AddJsonFile("conf/appsettings.json", optional: true, reloadOnChange: true);
             });
 
