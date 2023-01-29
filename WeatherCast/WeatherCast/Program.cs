@@ -15,6 +15,11 @@ namespace WeatherCast
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Host.ConfigureAppConfiguration((ctx, builder) =>
+            {
+                builder.AddJsonFile("conf/appsettings.json", optional: true, reloadOnChange: true);
+            });
+
             var logger = builder.Services.BuildServiceProvider().GetService<ILogger<ConfController>>();
 
             builder.Services.AddSingleton(typeof(ILogger), logger);
