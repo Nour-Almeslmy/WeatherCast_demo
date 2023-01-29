@@ -68,13 +68,37 @@ namespace WeatherCast.Controllers
         }
 
         [HttpGet]
-        [Route("new")]
+        [Route("file")]
         public string GetValueFromConfFile()
         {
             var value = _configuration.GetValue<string>("confKey");
             if (String.IsNullOrEmpty(value))
             {
                 return "Empty Value From conf file";
+            }
+            return value;
+        }
+
+        [HttpGet]
+        [Route("secretun")]
+        public string GetValueFromSecretUserName()
+        {
+            var value = _configuration.GetValue<string>("userName");
+            if (String.IsNullOrEmpty(value))
+            {
+                return "Empty value from secret";
+            }
+            return value;
+        }
+
+        [HttpGet]
+        [Route("secretp")]
+        public string GetValueFromSecretPassword()
+        {
+            var value = _configuration.GetValue<string>("password");
+            if (String.IsNullOrEmpty(value))
+            {
+                return "Empty value from secret";
             }
             return value;
         }

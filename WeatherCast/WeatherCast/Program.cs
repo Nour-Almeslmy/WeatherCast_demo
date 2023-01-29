@@ -19,6 +19,7 @@ namespace WeatherCast
             {
                 builder.AddJsonFile("appsettings.json");
                 builder.AddJsonFile("conf/appsettings.json", optional: true, reloadOnChange: true);
+                builder.AddJsonFile("secret/secret.json", optional: true, reloadOnChange: true);
             });
 
             var logger = builder.Services.BuildServiceProvider().GetService<ILogger<ConfController>>();
