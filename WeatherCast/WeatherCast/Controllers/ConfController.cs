@@ -107,17 +107,17 @@ namespace WeatherCast.Controllers
         [Route("log")]
         public string Log() 
         {
-            try
-            {
-                string? error = null;
-                error.ToUpper();
-            }
-            catch (Exception exp)
-            {
-                _logger.LogDebug($"Expeption Thrown ===> {exp.Message}");
-            }
-            //_logger.LogError("Expeption Thrown");
-            //_logger.LogInformation("Expeption Thrown");
+            //try
+            //{
+            //    string? error = null;
+            //    error.ToUpper();
+            //}
+            //catch(Exception exp)
+            //{
+            //    _logger.LogDebug($"Expeption Thrown ===> {exp.Message}");
+            //}
+            _logger.LogError("Error Message");
+            _logger.LogInformation("Information Message");
             return "Logging";
         }
 
