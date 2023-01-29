@@ -68,6 +68,13 @@ namespace WeatherCast.Controllers
         }
 
         [HttpGet]
+        [Route("new")]
+        public string GetValueFromConfFile()
+        {
+            return _configuration.GetValue<string>("confKey");
+        }
+
+        [HttpGet]
         [Route("log")]
         public string Log() 
         {
