@@ -114,7 +114,7 @@ namespace WeatherCast.Controllers
             }
             catch (Exception exp)
             {
-                _logger.LogDebug($"Expeption Thrown ===> {exp.Message}");
+                _logger.LogError($"Expeption Thrown ===> {exp.Message}");
             }
             //_logger.LogError("Error Message");
             //_logger.LogInformation("Information Message");
