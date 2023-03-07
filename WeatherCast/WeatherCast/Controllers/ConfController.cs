@@ -121,12 +121,5 @@ namespace WeatherCast.Controllers
             return "Logging";
         }
 
-        [HttpGet]
-        [Route("test")]
-        public string GetTest()
-        {
-            return "test";
-        }
-
     }
 }
