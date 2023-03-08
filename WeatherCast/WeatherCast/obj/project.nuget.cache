@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lGzrW7Grabwfp9Jz2+2BCev+e0pzcyoKHq65CTIWLaH0vdRd0O+mVfgFtZxYxs3+nXjYrCqqIHSgiI5ui1wQbg==",
+  "dgSpecHash": "9XWMTibL1cHMdso9+JHTgtOcC1BpDVg5YtAc5KH9x+eBoGi340dNsL4A5BbvuXXE+GY2XpK14DJnAGAOtPatUg==",
   "success": true,
   "projectFilePath": "D:\\testProjs\\Core\\WeatherCast_demo\\WeatherCast\\WeatherCast\\WeatherCast.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\NElMeslemy\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\NElMeslemy\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\NElMeslemy\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\NElMeslemy\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\NElMeslemy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\NElMeslemy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
