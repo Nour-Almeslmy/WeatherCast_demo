@@ -114,9 +114,7 @@ namespace WeatherCast.Controllers
             }
             catch (Exception exp)
             {
-                _logger.LogError($"Message : {exp.Message}"+
-                    $"InnerException : {exp.InnerException}"+
-                    $"StackTree : {exp.StackTrace}");
+                _logger.LogError($"{exp}");
             }
             return "Logging From Confmap New Feature";
         }
