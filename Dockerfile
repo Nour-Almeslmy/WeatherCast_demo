@@ -24,3 +24,6 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WeatherCast.dll"]
+
+RUN ["apt-get", "update"]
+RUN ["apt-get", "-y", "install", "vim"]
