@@ -116,7 +116,7 @@ namespace WeatherCast.Controllers
             {
                 _logger.LogError($"{exp}");
             }
-            return "Logging From Confmap";
+            return $"Logging From Confmap - {_configuration.GetValue<string>("podName")}";
         }
 
     }
