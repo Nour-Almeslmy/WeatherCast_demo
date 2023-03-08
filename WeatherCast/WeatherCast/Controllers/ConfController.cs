@@ -116,7 +116,7 @@ namespace WeatherCast.Controllers
             {
                 _logger.LogError($"{exp}");
             }
-            return "Logging From Confmap New Feature";
+            return "Logging From Confmap";
         }
 
     }
