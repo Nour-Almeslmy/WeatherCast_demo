@@ -118,7 +118,7 @@ namespace WeatherCast.Controllers
                     $"InnerException : {exp.InnerException}"+
                     $"StackTree : {exp.StackTrace}");
             }
-            return "Logging From Confmap";
+            return "Logging From Confmap New Feature";
         }
 
     }
