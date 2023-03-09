@@ -114,7 +114,7 @@ namespace WeatherCast.Controllers
             }
             catch (Exception exp)
             {
-                _logger.logDebug("logging EndPoint Debug");
+                _logger.LogDebug("logging EndPoint Debug");
                 _logger.LogError(exp, "Logging Endpoint Error", new object());
             }
             return $"Logging From Confmap - {_configuration.GetValue<string>("podName")}";
