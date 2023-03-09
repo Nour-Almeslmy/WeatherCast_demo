@@ -66,3 +66,17 @@ D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\refi
 D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast.pdb
 D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\WeatherCast.genruntimeconfig.cache
 D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\obj\Debug\net6.0\ref\WeatherCast.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\conf\appsettings.json
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Serilog.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Serilog.AspNetCore.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Serilog.Enrichers.Environment.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Serilog.Enrichers.Process.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Serilog.Enrichers.Thread.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+D:\testProjs\Core\WeatherCast_demo\WeatherCast\WeatherCast\bin\Debug\net6.0\Serilog.Sinks.File.dll

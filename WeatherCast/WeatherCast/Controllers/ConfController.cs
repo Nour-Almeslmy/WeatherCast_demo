@@ -10,7 +10,7 @@ namespace WeatherCast.Controllers
         private readonly IConfiguration _configuration;
         private readonly ILogger _logger;
 
-        public ConfController(IConfiguration configuration, ILogger logger)
+        public ConfController(IConfiguration configuration, ILogger<ConfController> logger)
         {
             _configuration = configuration;
             _logger = logger;

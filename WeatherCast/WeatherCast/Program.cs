@@ -1,3 +1,4 @@
+using Serilog;
 using WeatherCast.Controllers;
 
 namespace WeatherCast
@@ -15,16 +16,32 @@ namespace WeatherCast
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Host.ConfigureAppConfiguration((ctx, builder) =>
-            {
-                builder.AddJsonFile("appsettings.json");
-                builder.AddJsonFile("conf/appsettings.json", optional: true, reloadOnChange: true);
-                builder.AddJsonFile("secret/secret.json", optional: true, reloadOnChange: true);
-            });
 
-            var logger = builder.Services.BuildServiceProvider().GetService<ILogger<ConfController>>();
+            #region SeriLog
 
-            builder.Services.AddSingleton(typeof(ILogger), logger);
+            var config = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            Log.Logger = new LoggerConfiguration()
+                .ReadFrom.Configuration(config)
+                .CreateLogger();
+
+            builder.Host.UseSerilog();
+
+            #endregion
+
+
+            #region .NetLogger
+
+            //builder.Host.ConfigureAppConfiguration((ctx, builder) =>
+            //{
+            //    builder.AddJsonFile("appsettings.json");
+            //    builder.AddJsonFile("conf/appsettings.json", optional: true, reloadOnChange: true);
+            //    builder.AddJsonFile("secret/secret.json", optional: true, reloadOnChange: true);
+            //});
+
+            #endregion
 
             var app = builder.Build();
 
@@ -42,7 +59,19 @@ namespace WeatherCast
 
             app.MapControllers();
 
-            app.Run();
+            try
+            {
+                Log.Information("Application Starting");
+                app.Run();
+            }
+            catch (Exception exp)
+            {
+                Log.Fatal(exp, "The App Failed To Start!");
+            }
+            finally
+            {
+                Log.CloseAndFlush();
+            }
         }
     }
 }
